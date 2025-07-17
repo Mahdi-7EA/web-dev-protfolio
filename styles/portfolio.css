@@ -89,7 +89,8 @@ nav ul li a {
 .banner {
   display: flex;
   justify-content: space-between;
-  margin: 0 35px 0px 230px;
+  margin: 0 35px 0px 200px;
+  /* margin: 297px 785px 184px 230px; */
 }
 
 .banner-content {
@@ -98,15 +99,19 @@ nav ul li a {
 .banner-greetings {
   font-weight: 600;
   font-size: 45px;
+  margin-top: 150px;
+  margin-bottom: 5px;
 }
 
 .banner-title {
   font-weight: bold;
   font-size: 85px;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .banner-description {
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 18px;
 }
 
@@ -155,6 +160,12 @@ main section {
 .resume-container {
   display: flex;
   gap: 24px;
+}
+
+.resume-column-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #474747;
 }
 
 .experience-sub-title{
